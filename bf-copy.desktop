@@ -1,0 +1,24 @@
+# Copyright 2019 Bruno Fontes <outros+dev@m.brunofontes.net>
+
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=application/octet-stream;inode/directory
+Actions=copyNameOnly;copyPathOnly;copyPath;
+X-KDE-Priority=TopLevel
+X-KDE-Submenu=BFCopy
+
+[Desktop Action copyNameOnly]
+Name=Copy Filename
+Name[pt_BR]=Copiar nome do arquivo
+Exec=bash ~/.local/share/kservices5/ServiceMenus/copyName.sh %F
+
+[Desktop Action copyPathOnly]
+Name=Copy Path
+Name[pt_BR]=Copiar caminho
+Exec=bash ~/.local/share/kservices5/ServiceMenus/copyPath.sh %F
+
+[Desktop Action copyPath]
+Name=Copy Full Path
+Name[pt_BR]=Copiar caminho completo
+Exec=bash ~/.local/share/kservices5/ServiceMenus/copyFullPath.sh %F

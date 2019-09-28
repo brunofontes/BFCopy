@@ -8,5 +8,5 @@ BFCopy allows you to copy Filenames, File Paths and/or Full File Paths directly 
 
 ### Install
 
-Arch: sudo pacman -S xsel
-Ubuntu: sudo apt install xsel
+- Arch: sudo pacman -S xsel
+- Ubuntu: sudo apt install xsel
