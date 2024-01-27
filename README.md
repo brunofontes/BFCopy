@@ -9,7 +9,7 @@ Unpack all files and run `install.sh`
 
 ## Dependency
 
-- xsel
+- xsel (X) or wl-clipboard (Wayland)
 
 ### Install
 
