@@ -14,19 +14,19 @@ Icon=edit-paste
 Name=Copy Filename
 Name[nl]=Bestandsnaam kopiëren
 Name[pt_BR]=Copiar nome do arquivo
-Exec=bash $HOME/.local/share/kservices5/ServiceMenus/bf-copy/copyName.sh %F
+Exec=bash $HOME/.local/share/kio/servicemenus/bf-copyName.sh %F
 Icon=edit-paste
 
 [Desktop Action copyPathOnly]
 Name=Copy Path
 Name[nl]=Locatie kopiëren
 Name[pt_BR]=Copiar caminho
-Exec=bash $HOME/.local/share/kservices5/ServiceMenus/bf-copy/copyPath.sh %F
+Exec=bash $HOME/.local/share/kio/servicemenus/bf-copyPath.sh %F
 Icon=edit-paste
 
 [Desktop Action copyPath]
 Name=Copy Full Path
 Name[nl]=Volledige locatie kopiëren
 Name[pt_BR]=Copiar caminho completo
-Exec=bash $HOME/.local/share/kservices5/ServiceMenus/bf-copy/copyFullPath.sh %F
+Exec=bash $HOME/.local/share/kio/servicemenus/bf-copyFullPath.sh %F
 Icon=edit-paste

@@ -1,4 +1,3 @@
 #!/bin/bash
-ServiceMenuFolder=$HOME/.local/share/kservices5/ServiceMenus/bf-copy
-rm $ServiceMenuFolder/*
-rm -r $ServiceMenuFolder
+ServiceMenuFolder=$HOME/.local/share/kio/servicemenus
+rm $ServiceMenuFolder/bf-copy*
